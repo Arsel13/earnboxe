@@ -1,0 +1,332 @@
+   /*******************************
+   	All Responsive Code
+   *******************************/
+
+   @media (min-width: 2401px) {
+   	.banner {
+   		padding: 340px 0 340px;
+   	}
+
+   	.banner .bg-sape {
+   		width: 43%;
+   	}
+
+   	.pricing .shape-2 {
+   		top: 30%;
+   		left: 13%;
+   	}
+
+   	.pricing .shape-1 {
+   		top: 5%;
+   		left: 20%;
+   	}
+   }
+
+   @media (max-width: 2400px) {
+   	.banner {
+   		padding: 340px 0 300px;
+   	}
+
+   	.banner .bg-sape {
+   		width: 43%;
+   	}
+
+   	.pricing .shape-2 {
+   		top: 30%;
+   		left: 13%;
+   	}
+
+   	.pricing .shape-1 {
+   		top: 5%;
+   		left: 20%;
+   	}
+   }
+
+   @media (max-width: 1920px) {
+   	.banner {
+   		padding: 300px 0 300px;
+   	}
+
+   	.banner .bg-sape {
+   		width: 50%;
+   		right: 70px;
+   	}
+
+   	.pricing .shape-2 {
+   		left: 3%;
+   	}
+
+   	.pricing .shape-1 {
+   		left: 2%;
+   	}
+
+   }
+
+   @media (max-width: 1399px) {
+   	.banner {
+   		padding: 240px 0 150px;
+   	}
+
+   	.control .bg .sape-1,
+   	.control .bg .sape-2 {
+   		display: none;
+   	}
+
+   	.control .bg .control-bg {
+   		height: 50%;
+   	}
+
+   	.banner .bg-sape {
+   		width: 40%;
+   		right: 70px;
+   		bottom: 135px;
+   	}
+   }
+
+   @media (max-width: 1199px) {
+   	#scrollUp {
+   		right: 0%;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+   		margin-left: 20px;
+   	}
+
+   	.control .control-box {
+   		padding: 0px 30px 0px;
+   	}
+
+   	.control .bg .control-bg {
+   		height: 65%;
+   	}
+
+   	.banner .bg-sape,
+   	.pricing .shape-1,
+   	.pricing .shape-2 {
+   		display: none;
+   	}
+
+   	.control .videoo .video-ilstation {
+   		width: 55%;
+   	}
+
+   	.footer .footer-box h3.subtitle {
+   		margin-top: 30px;
+   		padding-bottom: 0px;
+   	}
+
+   	.control .control-box h3.subtitle {
+   		padding: 5px 0 5px;
+   	}
+   }
+
+   @media (max-width: 991px) {
+
+   	.banner {
+   		padding: 210px 0 120px;
+   	}
+
+   	.mein-menu {
+   		position: fixed;
+   		top: 0;
+   		left: 0;
+   		width: 100%;
+   		background: -webkit-linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+   		background: linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+   		box-shadow: 3.801px 12.432px 24px 0px rgb(150 131 225 / 40%);
+   		z-index: 99999;
+   		padding: 10px 0 10px;
+   	}
+
+   	.mein-menu .navbar .navbar-toggler:focus {
+   		box-shadow: 0;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+   		height: 350px;
+   		overflow: auto;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+   		margin-left: auto;
+   		-webkit-box-align: start;
+   		-ms-flex-align: start;
+   		-ms-grid-row-align: flex-start;
+   		align-items: flex-start;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+   		margin-left: 0;
+   		margin-top: 10px;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link {
+   		color: #fff;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:before {
+   		top: calc(100% + 0px);
+   		background: #ffffff;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .language-select .nice-select span {
+   		color: #fff;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .language-select .nice-select:after {
+   		border-bottom: 2px solid #ffffff;
+   		border-right: 2px solid #ffffff;
+   		width: 10px;
+   		height: 10px;
+   	}
+
+   	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .nav-link.button-1 {
+   		color: #ffffff;
+   	}
+
+   	.banner .hero-area .banner-content {
+   		padding-bottom: 30px;
+   	}
+
+   	.footer .footer-bottom .social-style {
+   		margin-bottom: 22px;
+   	}
+
+   	.footer .footer-bottom {
+   		-webkit-box-orient: vertical;
+   		-webkit-box-direction: reverse;
+   		-ms-flex-direction: column-reverse;
+   		flex-direction: column-reverse;
+   	}
+
+   	h1.head {
+   		font-size: 50px;
+   		line-height: 60px;
+   	}
+
+   	.tril .content .section-head h2.title,
+   	h2.title {
+   		font-size: 42px;
+   		line-height: 52px;
+   	}
+
+   	h3.subtitle {
+   		font-size: 28px;
+   		line-height: 38px;
+   	}
+
+   	h4.lasthead {
+   		font-size: 22px;
+   		line-height: 32px;
+   	}
+
+   	.control .bg .control-bg {
+   		height: 83%;
+   	}
+
+   	.control .control-box {
+   		padding: 0px 0px 0px;
+   	}
+
+   	.pricing .pricing-item {
+   		margin-top: 30px;
+   	}
+
+   	.pricing .pricing-item.two .pricing-header {
+   		padding-bottom: 30px;
+   	}
+
+   	.pricing .pricing-item.two .pricing-footer {
+   		padding: 40px 15px 40px;
+   	}
+
+   	.pricing .pricing-bg {
+   		height: 90%;
+   	}
+
+   	#scrollUp {
+   		display: none;
+   		opacity: 0;
+   	}
+   }
+
+   @media (max-width: 767px) {
+   	.testomonial .testobox .single .image {
+   		margin-right: 0px;
+   		margin-bottom: 30px;
+   		text-align: center;
+   	}
+
+   	.testomonial .testobox .single .image img {
+   		width: 70%;
+   		margin: 0 auto 0;
+   	}
+
+   	.tril .content {
+   		padding: 116px 30px 120px;
+   	}
+
+   	.banner {
+   		background-position: left center;
+   	}
+
+   	.banner .tree-1,
+   	.banner .tree-2 {
+   		display: none;
+   	}
+
+   	.pricing .pricing-item {
+   		margin-left: 0px;
+   	}
+   }
+
+   @media (max-width: 575px) {
+   	.control .videoo {
+   		padding: 0px 0px 0px;
+   	}
+
+   	.control .videoo:before,
+   	.control .videoo:after {
+   		display: none;
+   	}
+
+   	.tril .content .section-head a.button {
+   		padding: 0px 15px 0px;
+   	}
+   }
+
+   @media (max-width: 414px) {
+   	h1.head {
+   		font-size: 40px;
+   		line-height: 50px;
+   	}
+
+   	.tril .content .section-head h2.title,
+   	h2.title {
+   		font-size: 35px;
+   		line-height: 45px;
+   	}
+
+   	.control .videoo .video-box {
+   		width: 280px;
+   		padding: 13px 30px 13px 13px;
+   	}
+
+   	.feature .section-head ul.list li.list-item {
+   		-webkit-box-orient: vertical;
+   		-webkit-box-direction: normal;
+   		-ms-flex-direction: column;
+   		flex-direction: column;
+   	}
+
+   	.feature .section-head ul.list li.list-item span.icon {
+   		margin-right: 0px;
+   	}
+
+   	.feature .section-head ul.list li.list-item .content {
+   		margin-top: 20px;
+   		text-align: center;
+   	}
+   }
+
+   @media (max-width: 360px) {}
